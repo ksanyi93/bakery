@@ -10,7 +10,7 @@ class BakerySeeder extends Seeder
 {
     public function run()
     {
-        $json = File::get(storage_path('app/data.json'));
+        $json = File::get(public_path('data.json'));
         $data = json_decode($json, true);
 
         foreach ($data['recipes'] as $recipe) {
