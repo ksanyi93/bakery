@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container text-center">
-    <h1 class="my-4">Üdv a Bakery Projektben!</h1>
+    <h1 class="my-4">Üdvözöllek a pékség projekten!</h1>
     <div class="d-flex justify-content-center">
         <a href="{{ route('last-week-revenue') }}" class="btn btn-primary mx-2">Utolsó hét árbevétele</a>
         <a href="{{ route('special-products') }}" class="btn btn-secondary mx-2">Mentes termékek</a>
